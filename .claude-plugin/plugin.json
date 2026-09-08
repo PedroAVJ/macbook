@@ -1,0 +1,27 @@
+{
+  "name": "macbook",
+  "version": "0.6.1",
+  "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/macbook",
+  "repository": "https://github.com/PedroAVJ/macbook",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "macbook",
+    "performance",
+    "memory",
+    "storage",
+    "diagnostics",
+    "adb",
+    "scrcpy"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "dependencies": [
+    "toolchain@package-manager"
+  ]
+}

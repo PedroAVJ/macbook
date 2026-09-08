@@ -1,0 +1,45 @@
+{
+  "name": "macbook",
+  "version": "0.6.1",
+  "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/macbook",
+  "repository": "https://github.com/PedroAVJ/macbook",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "macbook",
+    "performance",
+    "memory",
+    "storage",
+    "diagnostics",
+    "adb",
+    "scrcpy"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "MacBook",
+    "shortDescription": "Measure this Mac and approve native credential fills",
+    "longDescription": "Live measurements for the Mac this agent runs on plus one-time, human-approved Mac login password fills into signed native secure dialogs. The credential broker never returns secret content, rejects web fields, and never submits the surrounding action.",
+    "developerName": "PedroAVJ",
+    "category": "Drivers",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#1C1C1E",
+    "composerIcon": "./assets/macbook-icon.svg",
+    "logo": "./assets/macbook-icon.svg",
+    "screenshots": [],
+    "defaultPrompt": [
+      "How close am I to running out of RAM?",
+      "Where did my disk space go?",
+      "Safely fill my Mac password into this native prompt"
+    ]
+  }
+}

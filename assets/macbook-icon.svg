@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 64 64" role="img" aria-label="Computer tools">
+  <title>Computer tools</title>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#384252"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><rect x="16" y="14" width="32" height="27" rx="3"/><path d="m16 41-7 9h46l-7-9M26 45h12"/><path d="m26 23-4 5 4 5M32 33h8"/></g>
+</svg>

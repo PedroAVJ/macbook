@@ -1,0 +1,18 @@
+{
+  "name": "@pedroavj/macbook",
+  "version": "0.6.1",
+  "private": true,
+  "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroAVJ/macbook.git"
+  },
+  "homepage": "https://github.com/PedroAVJ/macbook#readme",
+  "bugs": {
+    "url": "https://github.com/PedroAVJ/macbook/issues"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs"
+  }
+}
