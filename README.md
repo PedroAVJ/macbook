@@ -1,4 +1,4 @@
-# MacBook
+# macOS
 
 Diagnostics, local host context, and human-approved native credential fills for
 the user's Mac.
@@ -20,7 +20,7 @@ So this plugin splits them, and each skill says which one it answered.
 | `control-host` | What macOS, architecture, ADB, and scrcpy setup is available right now? |
 | `credential-authorization` | Can a native signed macOS prompt receive one approved Mac login password fill without exposing the secret to the agent? |
 
-MacBook owns live host measurement, not cleanup eligibility. Both diagnostic
+The macOS plugin owns live host measurement, not cleanup eligibility. Both diagnostic
 skills compose `toolchain:resource-hygiene`, which owns whether any measured
 file, application, or process may appear in a cleanup recommendation.
 

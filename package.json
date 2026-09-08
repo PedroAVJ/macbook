@@ -1,6 +1,6 @@
 {
   "name": "@pedroavj/macbook",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "private": true,
   "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
   "license": "MIT",

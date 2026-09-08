@@ -1,6 +1,7 @@
 {
   "name": "macbook",
-  "version": "0.6.1",
+  "displayName": "macOS",
+  "version": "0.6.2",
   "description": "Measure this Mac and authorize one-time native Mac login password fills without exposing the secret.",
   "author": {
     "name": "PedroAVJ",

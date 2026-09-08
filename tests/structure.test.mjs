@@ -7,7 +7,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   "name": "macbook",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "url": "https://github.com/PedroAVJ/macbook",
   "dependencies": ["toolchain@package-manager"]
 };
